@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  background-image: url("Img/tactile_noise.png");
+  color: whitesmoke;
+}
+
+.row{
+  display: flex;
+}
+
+h1{
+  background-image: url("Img/bombitas.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: whitesmoke;
+  font-size: 50px;
+  color: orange;
+}
+
+nav{
+  background-color: black;
+}
+
+
+.img-size{
+  width: 60%;
+  height: auto;
+}
+
+.marginTop{
+  margin-top: 100px;
+}
+
+.paddingTitulo{
+  padding-top: 150px;
+  -webkit-text-stroke: 0.8px black;
+}
+
+.maxAncho{
+  width: 100%;
+}
+
+.readaptar{
+  width: 100%;
+  height: 20vh;
+  resize: none;
+}

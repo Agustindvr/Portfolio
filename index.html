@@ -5,6 +5,12 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Portfolio 💻💼</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9ba09b913b.js" crossorigin="anonymous"></script>
@@ -13,22 +19,22 @@
 </head>
 <body>
   <nav>
-    <button type="button" class="btn btn-outline-warning ml-1"><a href="#about_me" class="text-warning">Quien
-      soy?</a></button>
-    <button type="button" class="btn btn-outline-warning ml-1"><a href="#skills-habilidades" class="text-warning">Skills</a></button>
-    <button type="button" class="btn btn-outline-warning ml-1"><a href="#Ejercicio_1" class="text-warning">Ej
-      alumnos</a></button>
-    <button type="button" class="btn btn-outline-warning ml-1">Yerbas</button>
-    <button type="button" class="btn btn-outline-warning ml-1">Pupilonxs</button>
+    <a href="#about_me" class="text-warning"><button type="button" class="btn btn-outline-warning ml-1">Quien
+      soy?</button></a>
+    <a href="#skills-habilidades" class="text-warning"><button type="button" class="btn btn-outline-warning ml-1">Skills</button></a>
+    <a href="#Ejercicio_1" class="text-warning"><button type="button" class="btn btn-outline-warning ml-1">Ej
+      alumnos</button></a>
+    <a href="#proyectos" class="text-warning"><button type="button" class="btn btn-outline-warning ml-1">Proyectos</button></a>
   </nav>
-  <h1 class="container-fluid text-center paddingTitulo">Agustín Del Valle</h1>
-
-  <div class="container marginTop">
+  <h1 class="container-fluid text-center paddingTitulo">Agustín Del Valle - Frontend Dev</h1>
+  
+  <div class="container-fluid marginTop">
     <h3 id="about_me" class="text-center mt-5 mb-5 p-3 bg-warning text-dark ancho">Quien soy?</h3>
-    <section class="row">
+    <section class="row mb-5">
       <div class="col-sm-12	col-md-6 col-lg-6	col-xl-7 text-center ml-4">
-        <p class="mt-5">Destacado por mi entusiasmo y mi alegria, siempre con ganas de aprender, de crear, de imaginar. Con una gran capacidad de trabajo en equipo, solidario y dispuesto a ayudar. 
-          Un color: Amarillo. Un libro: Rayuela. Una pelicula: . Un cd: Oktubre. 
+        <p class="mt-5">Destacado por mi entusiasmo y mi alegria, siempre con ganas de aprender, de crear, de imaginar. Con una gran capacidad de trabajo en equipo, solidario y predispuesto.
+          Oriundo de Sarandi y con 31 años voy en busca de mi primer trabajo en IT. Mi objetivo es lograr un equilibrio entre trabajo y familia, que me permita disfrutar de ambos y de mi. 
+          Un color: Amarillo. Un libro: Rayuela. Una pelicula: The Truman Show. Un cd: Oktubre. 
         </p>
       </div>
       <div class="col-sm-12	col-md-6 col-lg-6 col-xl-5 justify-content-center row">
@@ -36,72 +42,103 @@
       </div>
     </section>
   </div>
-  <div class="container ">
+  <div class="container-fluid mt-5">
     <h3 id="skills-habilidades" class="text-center mb-5 p-3 bg-warning text-dark ancho">Skills-Habilidades</h3>
-    <section class="row">
+    <section class="row mb-5">
       <div class="col-sm-12	col-md-6 col-lg-6 col-xl-6 justify-content-center row">
         <img src="Img/hombrecitos_construyendo.jpg" class="img-size mb-5 mt-1"
           alt="Imagen con fondo oscuro donde unos hombres de plastilina simulan que construyen una maquina con engranajes gigantes" />
       </div>
-      
-        <div class="col-sm-12	col-md-6 col-lg-6	col-xl-6 text-center mt-5">
-          <span style="color: #f06529;"><i class="fab fa-html5 fa-7x "></i></span>
-          <span style="color:#2965f1;"><i class="fab fa-css3-alt fa-7x"></i></span>
-          <span style="color: #f0db4f;"><i class="fab fa-js-square fa-7x"></i></span>
-          <span style="color: blue;"><i class="fab fa-drupal fa-7x"></i></span>
-          <span style="color: #563d7c;"><i class="fab fa-bootstrap fa-7x"></i></span>
-
-        </div>
+      <div class="col-sm-12	col-md-6 col-lg-6	col-xl-6 text-center mt-5">
+        <span style="color: #f06529;"><i class="fab fa-html5 fa-7x "></i></span>
+        <span style="color:#2965f1;"><i class="fab fa-css3-alt fa-7x"></i></span>
+        <span style="color: #f0db4f;"><i class="fab fa-js-square fa-7x"></i></span>
+        <span style="color: blue;"><i class="fab fa-drupal fa-7x"></i></span>
+        <span style="color: #563d7c;"><i class="fab fa-bootstrap fa-7x"></i></span>
+      </div>
     </section>
   </div>
   
   <div class="container">
-    <h3 class="text-center p-3 bg-warning text-dark" id="Ejercicio_1">Ejercicio alumnos</h3>
-    <div class="">
-      <form method="POST" action="#" >
-        <div class=" form-row">
-          <div class="form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
-            <label for="nombre_alumno">Nombre del alumno:</label>
-            <input type="text" id="nombre_alumno"/>
-          </div>
-          <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
-            <label for="apellido_alumno">Apellido del alumno:</label>
-            <input type="text" id="apellido_alumno"/>
-          </div>
+    <h3 class="text-center p-3 bg-warning text-dark mt-5" id="Ejercicio_1">Ejercicio alumnos</h3>
+    <form method="POST" action="#">
+      <div class=" form-row mt-5">
+        <div class="form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
+          <label for="nombre_alumno">Nombre del alumno:</label>
+          <input type="text" id="nombre_alumno"/>
         </div>
-        <div class="form-row text-center">
-          <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <label for="nota_matematicas">Nota de matemáticas:</label>
-            <input type="number" id="nota_matematicas" class="form-control"/>
-          </div>
-          <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <label for="nota_fisica">Nota de física:</label>
-            <input type="number" id="nota_fisica" class="form-control"/>
-          </div>
-          <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <label for="nota_literatura">Nota de literatura:</label>
-            <input type="number" id="nota_literatura" class="form-control"/>
-          </div>
+        <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
+          <label for="apellido_alumno">Apellido del alumno:</label>
+          <input type="text" id="apellido_alumno"/>
         </div>
-        <div class="form-row justify-content-center mb-3">
-          <button type="button" id="calcular_promedio_alumno" class="btn btn-outline-warning">Calcular promedio</button>
-          <span><button type="reset" id="resetear" class="btn btn-outline-warning ml-5"> Resetear</button></span>
-        </div>
-        <div class="form-row">
-          <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
-            <label for="mostrar_promedio" class="form-control">Promedio:</label>
-            <textarea id="mostrar_promedio" disabled class="form-control readaptar"></textarea>
-          </div>
-          <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
-            <label for="Mostrar_mensaje" class="form-control">Estado:</label>
-            <textarea id="Mostrar_mensaje" disabled class="form-control readaptar"></textarea>
-          </div>
-        </div>
-        </form>
       </div>
+      <div class="form-row text-center mt-5">
+        <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <label for="nota_matematicas">Nota de matemáticas:</label>
+          <input type="number" id="nota_matematicas" class="form-control"/>
+        </div>
+        <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <label for="nota_fisica">Nota de física:</label>
+          <input type="number" id="nota_fisica" class="form-control"/>
+        </div>
+        <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <label for="nota_literatura">Nota de literatura:</label>
+          <input type="number" id="nota_literatura" class="form-control"/>
+        </div>
+      </div>
+      <div class="form-row justify-content-center mb-3 mt-5">
+        <button type="button" id="calcular_promedio_alumno" class="btn btn-outline-warning">Calcular promedio</button>
+        <span><button type="reset" id="resetear" class="btn btn-outline-warning ml-5"> Resetear</button></span>
+      </div>
+      <div class="form-row mb-5 mt-5">
+        <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
+          <label for="mostrar_promedio" class="form-control">Promedio:</label>
+          <textarea id="mostrar_promedio" disabled class="form-control readaptar"></textarea>
+        </div>
+        <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
+          <label for="Mostrar_mensaje" class="form-control">Estado:</label>
+          <textarea id="Mostrar_mensaje" disabled class="form-control readaptar"></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="container">
+    <h3 class="text-center p-3 bg-warning text-dark mt-5 mb-5" id="proyectos">Proyectos actuales</h3>
+    <div class="row mb-5 justify-content-center">
+      <section class="card text-black-50 mt-5 text-center " style="width: 18rem;">
+        <img src="Img/pupilonxs.png" class="card-img-top bg-dark" alt="Bigotes, nariz y boca de conejo con el texto Pupilonxs">
+        <div class="card-body">
+          <p class="card-text">Mi primer e-commerce. Página destinada a la venta de ropa para bebes y ninxs.
+          </p>
+          <a href="https://tiendapupilonxs.com" target="_blank" class="card-link">Pupilonxs</a>
+        </div>        
+      </section>
+      <section class="card text-black-50 mt-5 text-center ml-2" style="width: 18rem;">
+        <img src="..." class="card-img-top bg-dark"
+          alt="Logo de Canarias en Argentina">
+        <div class="card-body">
+          <p class="card-text">Proyecto personal que busca acercar a usuarios de yerbas uruguayas en Argentina con sus vendedores locales.
+          </p>
+          <a href="https://canariasargentina.netlify.app/" target="_blank" class="card-link">Canarias en Argentina</a>
+        </div>
+      </section>
     </div>
   </div>
   
+  <footer>
+    <div class="container-fluid bg-warning">
+      <div class="row">
+        <section class="col-sm-12	col-md-12 col-lg-12 col-xl-12 text-center">
+          <a href="https://github.com/Agustindvr" target="_blank"><i class="fab fa-github fa-3x p-2" style="color: black;"></i></a>
+          <a href="https://www.instagram.com/agustindvr" target="_blank"><i class="fab fa-instagram fa-3x ml-5 p-2" style="color: black;"></i></a>
+          <a href="mailto:gustindvr@gmail.com?&subject=Contacto"><i class="fas fa-envelope fa-3x ml-5 p-2" style="color: black;"></i></a>
+          <a href="https://www.linkedin.com/in/agustindvr/"><i class="fab fa-linkedin fa-3x ml-5 p-2" style="color: black;"></i></a>
+        </section>
+      </div>
+    </div>
+  </footer>
+
 <!-- agregar 2 cards-->
   <script src='index.js'></script>
 </body>

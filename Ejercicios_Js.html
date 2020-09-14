@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Portfolio 💻💼</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/9ba09b913b.js" crossorigin="anonymous"></script>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+
+<body>
+  <nav>
+    <a href="#about_me" class="text-warning"><button type="button" class="btn btn-outline-warning ml-1">Quien
+        soy?</button></a>
+    <a href="#skills-habilidades" class="text-warning"><button type="button"
+        class="btn btn-outline-warning ml-1">Skills</button></a>
+    <a href="Ejercicio_Js.html" target="_blank" class="text-warning"><button type="button"
+        class="btn btn-outline-warning ml-1">Ej
+        alumnos</button></a>
+    <a href="#proyectos" class="text-warning"><button type="button"
+        class="btn btn-outline-warning ml-1">Proyectos</button></a>
+  </nav>
+  <h1 class="container-fluid text-center paddingTitulo">Agustín Del Valle - Frontend Dev</h1>
+
+  <div class="container">
+    <h3 class="text-center p-3 bg-warning text-dark mt-5" id="Ejercicio_1">Ejercicio alumnos</h3>
+    <form method="POST" action="#">
+      <div class=" form-row mt-5">
+        <div class="form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
+          <label for="nombre_alumno">Nombre del alumno:</label>
+          <input type="text" id="nombre_alumno" />
+        </div>
+        <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
+          <label for="apellido_alumno">Apellido del alumno:</label>
+          <input type="text" id="apellido_alumno" />
+        </div>
+      </div>
+      <div class="form-row text-center mt-5">
+        <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <label for="nota_matematicas">Nota de matemáticas:</label>
+          <input type="number" id="nota_matematicas" class="form-control" />
+        </div>
+        <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <label for="nota_fisica">Nota de física:</label>
+          <input type="number" id="nota_fisica" class="form-control" />
+        </div>
+        <div class="form-group col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <label for="nota_literatura">Nota de literatura:</label>
+          <input type="number" id="nota_literatura" class="form-control" />
+        </div>
+      </div>
+      <div class="form-row justify-content-center mb-3 mt-5">
+        <button type="button" id="calcular_promedio_alumno" class="btn btn-outline-warning">Calcular promedio</button>
+        <span><button type="reset" id="resetear" class="btn btn-outline-warning ml-5"> Resetear</button></span>
+      </div>
+      <div class="form-row mb-5 mt-5">
+        <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
+          <label for="mostrar_promedio" class="form-control">Promedio:</label>
+          <textarea id="mostrar_promedio" disabled class="form-control readaptar"></textarea>
+        </div>
+        <div class=" form-group col-sm-12	col-md-6 col-lg-6 col-xl-6">
+          <label for="Mostrar_mensaje" class="form-control">Estado:</label>
+          <textarea id="Mostrar_mensaje" disabled class="form-control readaptar"></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <div class="container-fluid bg-warning">
+      <div class="row">
+        <section class="col-sm-12	col-md-12 col-lg-12 col-xl-12 text-center">
+          <a href="https://github.com/Agustindvr" target="_blank"><i class="fab fa-github fa-3x p-2"
+              style="color: black;"></i></a>
+          <a href="https://www.instagram.com/agustindvr" target="_blank"><i class="fab fa-instagram fa-3x ml-5 p-2"
+              style="color: black;"></i></a>
+          <a href="mailto:gustindvr@gmail.com?&subject=Contacto"><i class="fas fa-envelope fa-3x ml-5 p-2"
+              style="color: black;"></i></a>
+          <a href="https://www.linkedin.com/in/agustindvr/"><i class="fab fa-linkedin fa-3x ml-5 p-2"
+              style="color: black;"></i></a>
+        </section>
+      </div>
+    </div>
+  </footer>
+</body>
